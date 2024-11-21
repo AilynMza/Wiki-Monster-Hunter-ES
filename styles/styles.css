@@ -1,12 +1,22 @@
 h1 {
   color: slateblue;
-  margin: 40px;
 }
 
 /*Selectores avanzados */
 /*Nos permiten ser mpas especificos en la parte que queremos seleccionar*/
+header {
+  background-color: blanchedalmond;
+}
+
+nav ul {
+  padding: 0;
+  text-align: center;
+  background-color: indigo;
+}
+
 nav ul li a {
-  color: hotpink;
+  color: white;
+  text-decoration: none;
 }
 
 /* Pseudoclases */
@@ -23,4 +33,11 @@ nav ul li {
   width: 60px;
   padding: 8px;
   height: 20px;
+  margin: 0 20px;
+}
+
+footer {
+  background-color: purple;
+  color: white;
+  text-align: center;
 }
