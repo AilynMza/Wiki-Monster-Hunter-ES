@@ -1,0 +1,26 @@
+h1 {
+  color: slateblue;
+  margin: 40px;
+}
+
+/*Selectores avanzados */
+/*Nos permiten ser mpas especificos en la parte que queremos seleccionar*/
+nav ul li a {
+  color: hotpink;
+}
+
+/* Pseudoclases */
+nav ul li a:hover {
+  color: darkred;
+}
+
+/* Display */
+
+/*Block | Inline | Inline-block */
+nav ul li {
+  display: inline-block;
+  background-color: chocolate;
+  width: 60px;
+  padding: 8px;
+  height: 20px;
+}
