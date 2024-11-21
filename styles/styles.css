@@ -29,7 +29,7 @@ nav ul li a:hover {
 /*Block | Inline | Inline-block */
 nav ul li {
   display: inline-block;
-  background-color: chocolate;
+  background-color: violet;
   width: 60px;
   padding: 8px;
   height: 20px;
