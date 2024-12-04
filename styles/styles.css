@@ -30,6 +30,10 @@ nav ul li a:hover {
   color: #6acd0c;
 }
 
+[type="text"] {
+  border-radius: 5px;
+}
+
 /* Display */
 /*Block | Inline | Inline-block */
 nav ul li {
@@ -53,9 +57,11 @@ nav ul li {
 }
 
 .arma {
+  text-align: center;
   background-color: rgb(88, 88, 88);
   border: 4px solid;
   border-color: black;
+  display: inline-block;
 }
 
 /*Hijo directo ">" */
