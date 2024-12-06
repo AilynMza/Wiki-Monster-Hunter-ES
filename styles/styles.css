@@ -37,6 +37,8 @@ a {
 
 nav ul li a {
   color: white;
+  font-weight: bolder;
+}
 }
 
 /* Pseudoclases */
