@@ -79,9 +79,16 @@ h2 {
   font-style: normal;
   font-size: xx-large;
   color: initial;
+  margin-bottom: 0%;
 }
 
 /* MAIN */
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .caja {
   display: flex;
   flex-wrap: wrap;
@@ -93,16 +100,16 @@ h2 {
 }
 
 .arma {
-  display: flex; 
-  flex-direction: column; 
-  align-items: center; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 15px;
 }
 
 .arma > img {
-  width: 100px; 
+  width: 100px;
   height: auto;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 .arma a {
