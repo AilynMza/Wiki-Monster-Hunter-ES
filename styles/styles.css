@@ -24,6 +24,10 @@ header {
   font-family: "Darker Grotesque", serif;
 }
 
+.logo {
+  width: 100%;
+}
+
 nav ul {
   padding: 15px;
   text-align: center;
