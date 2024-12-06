@@ -1,10 +1,9 @@
-/* BODY */
-body {
-  background-color: rgb(88, 88, 88);
-}
-
-/* HEADER */
+/* HEAD */
 h1 {
+  font-family: "Cinzel Decorative", serif;
+  /*Cinzel Decorative - Almendra SC - Darker Grotesque*/
+  font-weight: 400;
+  font-style: normal;
   color: rgb(255, 255, 255);
 }
 
@@ -47,6 +46,11 @@ nav ul li {
   padding: 8px;
   height: 20px;
   margin: 0 20px;
+}
+
+/* BODY */
+body {
+  background-color: rgb(88, 88, 88);
 }
 
 /* MAIN */
