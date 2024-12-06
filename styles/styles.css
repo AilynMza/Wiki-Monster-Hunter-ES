@@ -7,7 +7,6 @@ html {
   color: white;
 }
 
-/* HEAD */
 /* BODY */
 body {
   background-color: rgb(88, 88, 88);
@@ -18,6 +17,9 @@ header {
   text-align: center;
   background-color: rgb(88, 88, 88);
   font-family: "Darker Grotesque", serif;
+
+  position: relative;
+  top: -10px;
 }
 
 .logo {
@@ -31,6 +33,15 @@ h1 {
   font-style: normal;
   color: rgb(255, 255, 255);
   margin: 10px;
+}
+
+nav {
+  text-align: center;
+  background-color: rgb(88, 88, 88);
+  font-family: "Darker Grotesque", serif;
+
+  position: sticky;
+  top: 0;
 }
 
 nav ul {
