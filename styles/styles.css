@@ -11,6 +11,7 @@ html {
 /* BODY */
 body {
   background-color: rgb(88, 88, 88);
+  margin: 10%;
 }
 
 header {
@@ -72,6 +73,13 @@ nav ul li input {
   border-radius: 5px;
 }
 
+/* MAIN */
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 h2 {
   font-family: "Darker Grotesque", serif;
   font-optical-sizing: auto;
@@ -80,13 +88,6 @@ h2 {
   font-size: xx-large;
   color: initial;
   margin-bottom: 0%;
-}
-
-/* MAIN */
-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .caja {
