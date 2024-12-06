@@ -8,16 +8,11 @@ html {
 }
 
 /* HEAD */
-h1 {
-  font-family: "Cinzel Decorative", serif;
-  /*Cinzel Decorative - Almendra SC - Darker Grotesque - Manrope*/
-  font-weight: 700;
-  font-style: normal;
-  color: rgb(255, 255, 255);
-  margin: 10px;
+/* BODY */
+body {
+  background-color: rgb(88, 88, 88);
 }
 
-/*Selectores avanzados */
 header {
   text-align: center;
   background-color: rgb(88, 88, 88);
@@ -26,6 +21,15 @@ header {
 
 .logo {
   width: 100%;
+}
+
+h1 {
+  font-family: "Cinzel Decorative", serif;
+  /*Cinzel Decorative - Almendra SC - Darker Grotesque - Manrope*/
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  margin: 10px;
 }
 
 nav ul {
@@ -66,11 +70,6 @@ nav ul li input {
 
 [type="text"] {
   border-radius: 5px;
-}
-
-/* BODY */
-body {
-  background-color: rgb(88, 88, 88);
 }
 
 h2 {
