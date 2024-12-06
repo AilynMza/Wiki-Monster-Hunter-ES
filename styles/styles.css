@@ -39,7 +39,6 @@ nav ul li a {
   color: white;
   font-weight: bolder;
 }
-}
 
 /* Pseudoclases */
 /*Hover: para colocar diseño cuando se coloque cursor encima*/
@@ -86,14 +85,21 @@ h2 {
 .arma {
   text-align: center;
   background-color: rgb(88, 88, 88);
-  border: 4px solid;
+  border: 5px solid;
   border-color: transparent;
   display: inline-block;
+  margin: 20px;
+  box-sizing: border-box;
+  width: 150px;
+  height: auto;
 }
 
 /*Hijo directo ">" */
 .arma > img {
+  padding: 0px 25px 0px 25px;
   display: block;
+  width: 100px;
+  height: auto;
 }
 
 .arma a {
