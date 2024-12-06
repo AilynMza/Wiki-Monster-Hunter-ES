@@ -1,16 +1,27 @@
+html {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: large;
+  color: white;
+}
+
 /* HEAD */
 h1 {
   font-family: "Cinzel Decorative", serif;
-  /*Cinzel Decorative - Almendra SC - Darker Grotesque*/
-  font-weight: 400;
+  /*Cinzel Decorative - Almendra SC - Darker Grotesque - Manrope*/
+  font-weight: 700;
   font-style: normal;
   color: rgb(255, 255, 255);
+  margin: 10px;
 }
 
 /*Selectores avanzados */
 header {
   text-align: center;
   background-color: rgb(88, 88, 88);
+  font-family: "Darker Grotesque", serif;
 }
 
 nav ul {
@@ -53,23 +64,28 @@ body {
   background-color: rgb(88, 88, 88);
 }
 
+h2 {
+  font-family: "Darker Grotesque", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: xx-large;
+  color: initial;
+}
+
 /* MAIN */
-/*Avisos (elementos)*/
 .caja {
   padding: 15px;
   border: 4px solid;
   margin: 20px 0px;
   box-sizing: border-box;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-weight: 400;
-  font-size: 30px;
 }
 
 .arma {
   text-align: center;
   background-color: rgb(88, 88, 88);
   border: 4px solid;
-  border-color: black;
+  border-color: transparent;
   display: inline-block;
 }
 
@@ -79,7 +95,8 @@ body {
 }
 
 .arma a {
-  color: rgb(0, 0, 0);
+  font-family: inherit;
+  color: inherit;
 }
 
 /* Selector adyacente (hermanos adyacentes) "+" */
@@ -91,6 +108,5 @@ img + a:hover {
 /*Selector  de ID */
 #pie {
   background-color: rgb(0, 0, 0);
-  color: white;
   text-align: center;
 }
