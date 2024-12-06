@@ -1,7 +1,7 @@
 html {
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
   font-size: large;
   color: white;
@@ -97,6 +97,7 @@ h2 {
 .arma a {
   font-family: inherit;
   color: inherit;
+  font-weight: bolder;
 }
 
 /* Selector adyacente (hermanos adyacentes) "+" */
@@ -107,6 +108,10 @@ img + a:hover {
 /* FOOTER */
 /*Selector  de ID */
 #pie {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
   background-color: rgb(0, 0, 0);
   text-align: center;
 }
