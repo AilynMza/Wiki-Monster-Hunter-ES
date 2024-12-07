@@ -91,9 +91,6 @@ main {
   padding: 0 10%;
 }
 
-section > p {
-  text-align: justify;
-}
 section > p > span {
   font-weight: bolder;
   font-style: italic;
@@ -124,7 +121,6 @@ section > div > img {
   padding: 10px;
   margin: 0;
   bottom: 0;
-  color: ;
   font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
