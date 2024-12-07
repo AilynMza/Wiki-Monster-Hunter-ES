@@ -126,8 +126,10 @@ h2 {
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
-  font-size: xx-large;
+  font-size: 3rem;
   color: initial;
+  margin-bottom: 0;
+  color: #749d4f;
 }
 
 .caja {
