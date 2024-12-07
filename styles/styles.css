@@ -5,6 +5,7 @@ html {
   font-style: normal;
   font-size: large;
   color: white;
+  background-color: rgb(22, 22, 22);
 }
 
 /* BODY */
@@ -15,7 +16,7 @@ body {
 
 header {
   text-align: center;
-  background-color: rgb(88, 88, 88);
+  background-color: rgb(22, 22, 22);
   font-family: "Darker Grotesque", serif;
 
   position: relative;
@@ -23,7 +24,8 @@ header {
 }
 
 .logo {
-  width: 100%;
+  margin: 5% 0;
+  width: 80%;
 }
 
 h1 {
@@ -32,7 +34,8 @@ h1 {
   font-weight: 700;
   font-style: normal;
   color: rgb(255, 255, 255);
-  margin: 10px;
+  padding: 3%;
+  margin: 0;
 }
 
 nav {
@@ -51,6 +54,7 @@ nav ul {
   align-items: center;
   padding: 15px;
   background-color: rgb(51, 51, 51);
+  margin: 0;
 }
 
 /* Display */
@@ -146,7 +150,7 @@ img + a:hover {
   right: 0;
   writing-mode: vertical-rl; /* Escribe el texto en vertical desde derecha a izquierda */
   transform: rotate(180deg);  /* Voltea el texto para que se lea de abajo hacia arriba */
-  color: rgba(0, 0, 0, 0.685);
+  color: rgba(212, 212, 212, 0.685);
   background-color: rgba(55, 94, 18, 0.418);
   border: 2px solid #ffffff18;
   text-align: center;
@@ -162,6 +166,6 @@ img + a:hover {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(22, 22, 22);
   text-align: center;
 }
