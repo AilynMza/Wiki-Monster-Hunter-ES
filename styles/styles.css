@@ -18,8 +18,6 @@ header {
   text-align: center;
   background-color: rgb(22, 22, 22);
   font-family: "Darker Grotesque", serif;
-
-
 }
 
 .logo {
@@ -44,6 +42,7 @@ nav {
 
   position: sticky;
   top: 0;
+  z-index: 1000;
 }
 
 nav ul {
@@ -88,10 +87,33 @@ nav ul li input {
 }
 
 /* MAIN */
-section {
+/*section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}*/
+
+section > div > img {
+  width: 100%;
+}
+
+.relativo {
+  position: relative;
+}
+
+.absoluto {
+  position: absolute;
+  padding: 10px;
+  margin: 0;
+  bottom: 0;
+}
+
+.derecha {
+  right: 0;
+}
+
+.izquierda {
+  left: 0;
 }
 
 h2 {
@@ -148,7 +170,9 @@ img + a:hover {
   bottom: 0;
   right: 0;
   writing-mode: vertical-rl; /* Escribe el texto en vertical desde derecha a izquierda */
-  transform: rotate(180deg);  /* Voltea el texto para que se lea de abajo hacia arriba */
+  transform: rotate(
+    180deg
+  ); /* Voltea el texto para que se lea de abajo hacia arriba */
   color: rgba(212, 212, 212, 0.685);
   background-color: rgba(55, 94, 18, 0.418);
   border: 2px solid #ffffff18;
@@ -156,7 +180,6 @@ img + a:hover {
   padding: 10px 0;
   box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.1); /* Sombra para dar efecto flotante */
 }
-
 
 /* FOOTER */
 /*Selector  de ID */
