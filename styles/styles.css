@@ -89,7 +89,15 @@ nav ul li input {
 /* MAIN */
 main {
   padding: 0 10%;
+}
 
+section > p {
+  text-align: justify;
+}
+section > p > span {
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 18px;
 }
 
 h2 {
