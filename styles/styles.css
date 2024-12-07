@@ -92,6 +92,17 @@ main {
 
 }
 
+h2 {
+  font-family: "Darker Grotesque", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 3rem;
+  color: initial;
+  margin-bottom: 0;
+  color: #749d4f;
+}
+
 section > div > img {
   width: 100%;
 }
@@ -119,17 +130,6 @@ section > div > img {
 
 .izquierda {
   left: 0;
-}
-
-h2 {
-  font-family: "Darker Grotesque", serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
-  font-size: 3rem;
-  color: initial;
-  margin-bottom: 0;
-  color: #749d4f;
 }
 
 .caja {
