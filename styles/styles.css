@@ -125,6 +125,10 @@ h2 {
   text-align: right;
 }
 
+.subtitulo-centro {
+  text-align: center;
+}
+
 section > div > img {
   width: 100%;
 }
