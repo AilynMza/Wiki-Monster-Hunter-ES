@@ -164,7 +164,7 @@ section > div > img {
   align-items: center;
   align-content: space-around;
   padding: 15px;
-  margin: 10px;
+  margin: 10px 10px 50px 10px;
   border: 4px solid;
 }
 
