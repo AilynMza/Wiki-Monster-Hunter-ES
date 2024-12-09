@@ -79,10 +79,10 @@ nav ul li a:hover {
 
 
 nav ul li:last-child {
+  display: flex;
   flex-grow: 2;
   padding: 0;
   margin: 0;
-  display: flex;
 }
 
 nav ul li input {
