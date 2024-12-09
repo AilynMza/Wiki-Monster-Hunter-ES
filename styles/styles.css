@@ -121,6 +121,10 @@ h2 {
   color: #749d4f;
 }
 
+.subtitulo-der {
+  text-align: right;
+}
+
 section > div > img {
   width: 100%;
 }
