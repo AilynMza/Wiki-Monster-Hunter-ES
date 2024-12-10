@@ -163,6 +163,26 @@ h2 {
   }
 }
 
+.fijo {
+    position: fixed;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    bottom: 0;
+    right: 0;
+    writing-mode: vertical-rl; /* Escribe el texto en vertical desde derecha a izquierda */
+    transform: rotate(
+      180deg
+    ); /* Voltea el texto para que se lea de abajo hacia arriba */
+    color: rgba(212, 212, 212, 0.685);
+    background-color: rgba(55, 94, 18, 0.418);
+    border: 2px solid #ffffff18;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.1); /* Sombra para dar efecto flotante */
+  }
+
 /* FOOTER */
 /*Selector  de ID */
 #pie {
