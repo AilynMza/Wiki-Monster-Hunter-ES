@@ -23,6 +23,7 @@ header {
 .logo {
   margin: 5% 0;
   width: 80%;
+  cursor: pointer;
 }
 
 h1 {
