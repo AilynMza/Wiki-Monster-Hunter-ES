@@ -1,153 +1,176 @@
 html {
-    font-family: "Manrope", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: large;
-    color: white;
-    background-color: rgb(22, 22, 22);
-  }
-  
-  /* BODY */
-  body {
-    background-color: rgb(88, 88, 88);
-    margin: 0;
-  }
-  
-  header {
-    text-align: center;
-    background-color: rgb(22, 22, 22);
-    font-family: "Darker Grotesque", serif;
-  }
-  
-  .logo {
-    margin: 5% 0;
-    width: 80%;
-  }
-  
-  h1 {
-    font-family: "Cinzel Decorative", serif;
-    /*Cinzel Decorative - Almendra SC - Darker Grotesque - Manrope*/
-    font-weight: 700;
-    font-style: normal;
-    color: rgb(255, 255, 255);
-    padding: 3%;
-    margin: 0;
-  }
-  
-  nav {
-    background-color: rgb(88, 88, 88);
-    font-family: "Darker Grotesque", serif;
-  
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    overflow: hidden; /* Para asegurarnos de que no haya desbordamientos */
-  }
-  
-  /* Display */
-  /*Usando flexbox*/
-  nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-    padding: 15px;
-    background-color: rgb(51, 51, 51);
-    margin: 0;
-  }
-  
-  nav ul li {
-    padding: 8px;
-    margin: 0 3%;
-    /*Para quitar los marcadores */
-    list-style-type: none;
-  }
-  
-  nav ul li a {
-    /*Para que el hipervinculo no se subraye*/
-    text-decoration: none;
-    color: white;
-    font-weight: bolder;
-    margin: auto;
-  }
-  /* Pseudoclases */
-  /*Hover: para colocar diseño cuando se coloque cursor encima*/
-  nav ul li a:hover {
-    color: #6acd0c;
-    transition: 0.3s; /* Suavizar la transición del hover */
-  }
-  
-  
-  nav ul li:last-child {
-    display: flex;
-    flex-grow: 2;
-    padding: 0;
-    margin: 0;
-  }
-  
-  nav ul li input {
-    width: 100%;
-    border: 2px soild;
-    border-color: rgb(211, 255, 190);
-    border-radius: 5px;
-    background-color: rgb(51, 51, 51);
-    color: white;
-    padding: 8px;
-  }
-  
-  [type="text"] {
-    border-radius: 5px;
-  }
-  
-  /* MAIN */
-  main {
-    padding: 0 10%;
-  }
-  
-  section > p > span {
-    font-weight: bolder;
-    font-style: italic;
-    font-size: 18px;
-  }
-  
-  h2 {
-    font-family: "Darker Grotesque", serif;
-    font-optical-sizing: auto;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 3rem;
-    color: initial;
-    margin-bottom: 0;
-    color: #749d4f;
-  }
-  
-  .subtitulo-der {
-    text-align: right;
-  }
-  
-  .subtitulo-centro {
-    text-align: center;
-  }
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
+  color: white;
+  background-color: rgb(22, 22, 22);
+}
 
-  .derecha {
-    right: 0;
-  }
-  
-  .izquierda {
-    left: 0;
-  }
+/* BODY */
+body {
+  background-color: rgb(88, 88, 88);
+  margin: 0;
+}
 
-  /* FOOTER */
-  /*Selector  de ID */
-  #pie {
-    font-family: "Roboto Condensed", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    background-color: rgb(22, 22, 22);
-    text-align: center;
-    padding: 3%;
+header {
+  text-align: center;
+  background-color: rgb(22, 22, 22);
+  font-family: "Darker Grotesque", serif;
+}
+
+.logo {
+  margin: 5% 0;
+  width: 80%;
+}
+
+h1 {
+  font-family: "Cinzel Decorative", serif;
+  /*Cinzel Decorative - Almendra SC - Darker Grotesque - Manrope*/
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  padding: 3%;
+  margin: 0;
+}
+
+nav {
+  background-color: rgb(88, 88, 88);
+  font-family: "Darker Grotesque", serif;
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  overflow: hidden; /* Para asegurarnos de que no haya desbordamientos */
+}
+
+/* Display */
+/*Usando flexbox*/
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  padding: 15px;
+  background-color: rgb(51, 51, 51);
+  margin: 0;
+}
+
+nav ul li {
+  padding: 8px;
+  margin: 0 3%;
+  /*Para quitar los marcadores */
+  list-style-type: none;
+}
+
+nav ul li a {
+  /*Para que el hipervinculo no se subraye*/
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  margin: auto;
+}
+/* Pseudoclases */
+/*Hover: para colocar diseño cuando se coloque cursor encima*/
+nav ul li a:hover {
+  color: #6acd0c;
+  transition: 0.3s; /* Suavizar la transición del hover */
+}
+
+nav ul li:last-child {
+  display: flex;
+  flex-grow: 2;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li input {
+  width: 100%;
+  border: 2px soild;
+  border-color: rgb(211, 255, 190);
+  border-radius: 5px;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  padding: 8px;
+}
+
+[type="text"] {
+  border-radius: 5px;
+}
+
+/* MAIN */
+main {
+  padding: 0 10%;
+}
+
+h2 {
+  font-family: "Darker Grotesque", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 3rem;
+  color: initial;
+  margin-bottom: 0;
+  color: #749d4f;
+}
+
+.subtitulo-der {
+  text-align: right;
+}
+
+.subtitulo-centro {
+  text-align: center;
+}
+
+.derecha {
+  right: 0;
+}
+
+.izquierda {
+  left: 0;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0px;
+  margin-bottom: 50px;
+}
+
+.card-image {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card-description {
+  flex: 1; /* Hacer que la descripción ocupe el espacio disponible */
+}
+
+.card-description p {
+
+  margin: 0px 0px 20px 0px;
+}
+
+/* Diseño adaptable */
+@media (max-width: 600px) {
+  .contenedor {
+    flex-direction: column; /* Apila la imagen y la descripción en pantallas pequeñas */
+    align-items: flex-start; /* Alinear a la izquierda en modo columna */
   }
-  
+}
+
+/* FOOTER */
+/*Selector  de ID */
+#pie {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background-color: rgb(22, 22, 22);
+  text-align: center;
+  padding: 3%;
+}
