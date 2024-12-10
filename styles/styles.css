@@ -42,6 +42,7 @@ nav {
   position: sticky;
   top: 0;
   z-index: 1000;
+  overflow: hidden; /* Para asegurarnos de que no haya desbordamientos */
 }
 
 /* Display */
@@ -75,6 +76,7 @@ nav ul li a {
 /*Hover: para colocar diseño cuando se coloque cursor encima*/
 nav ul li a:hover {
   color: #6acd0c;
+  transition: 0.3s; /* Suavizar la transición del hover */
 }
 
 
