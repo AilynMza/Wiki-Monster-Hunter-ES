@@ -226,3 +226,41 @@ img + a:hover {
   text-align: center;
   padding: 3%;
 }
+
+footer div {
+  mar
+}
+.cookie-footer {
+  position: fixed; /* Siempre visible al final de la pantalla */
+  bottom: 0; /* Pegado a la parte inferior */
+  left: 0;
+  right: 0;
+  margin: 0;
+  background-color: #ffffff75; 
+  color: #fff; /* Texto en blanco para buen contraste */
+  display: flex; /* Organiza el contenido de manera horizontal */
+  justify-content: space-around; /* Espacia el texto y el botón */
+  align-items: center;
+
+}
+
+.cookie-footer a {
+  color: rgb(211, 255, 190);
+}
+
+
+.cookie-footer p {
+  margin: 0;
+}
+
+.cookie-footer button {
+  background-color: #739d4fc4; /* Verde para el botón */
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.cookie-footer button:hover {
+  background-color: #45a049; /* Efecto al pasar el ratón sobre el botón */
+}
