@@ -213,6 +213,7 @@ img + a:hover {
   text-align: center;
   padding: 10px 0;
   box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.1); /* Sombra para dar efecto flotante */
+  z-index: 1000;
 }
 
 /* FOOTER */
