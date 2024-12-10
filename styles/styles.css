@@ -227,9 +227,6 @@ img + a:hover {
   padding: 3%;
 }
 
-footer div {
-  mar
-}
 .cookie-footer {
   position: fixed; /* Siempre visible al final de la pantalla */
   bottom: 0; /* Pegado a la parte inferior */
