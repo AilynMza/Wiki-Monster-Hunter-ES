@@ -145,7 +145,7 @@ h2 {
 }
 
 .card-image {
-  width: 150px;
+  width: 25%;
   height: auto;
   border-radius: 8px;
 }
@@ -155,6 +155,7 @@ h2 {
     flex-direction: column; 
     align-items: flex-start; 
     gap: 10px;
+    width: 100%;
 }
 
 .card-description p {

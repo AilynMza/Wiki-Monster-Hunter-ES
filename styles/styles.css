@@ -234,18 +234,16 @@ img + a:hover {
   left: 0;
   right: 0;
   margin: 0;
-  background-color: #ffffff75; 
+  background-color: #ffffff75;
   color: #fff; /* Texto en blanco para buen contraste */
   display: flex; /* Organiza el contenido de manera horizontal */
   justify-content: space-around; /* Espacia el texto y el botón */
   align-items: center;
-
 }
 
 .cookie-footer a {
   color: rgb(211, 255, 190);
 }
-
 
 .cookie-footer p {
   margin: 0;
