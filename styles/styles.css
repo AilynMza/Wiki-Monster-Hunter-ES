@@ -277,16 +277,12 @@ img + a:hover {
   background-color: #45a049; /* Efecto al pasar el ratón sobre el botón */
 }
 
-
-/* Media Queries - Monitores grandes */
-@media screen and (min-width: 1200px) {
-  
-}
-
 /* Media Queries - Tabletas */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+
 }
 
 /* Media Queries - Télefonos */
 @media screen and (max-width: 767px) {
+  
 }
