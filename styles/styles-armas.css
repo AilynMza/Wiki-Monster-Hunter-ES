@@ -162,6 +162,12 @@ h2 {
   margin: 0px 0px 1em 0px;
 }
 
+.card-description p > span {
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 18px;
+}
+
 /* Diseño adaptable */
 @media (max-width: 600px) {
   .contenedor {
