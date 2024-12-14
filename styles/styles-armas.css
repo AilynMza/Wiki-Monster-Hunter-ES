@@ -3,10 +3,16 @@ html {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: large;
+  font-size: 16px;
   color: white;
   background-color: rgb(22, 22, 22);
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 
 /* BODY */
 body {
