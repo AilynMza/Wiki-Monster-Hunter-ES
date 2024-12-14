@@ -284,5 +284,76 @@ img + a:hover {
 
 /* Media Queries - Télefonos */
 @media screen and (max-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+
+  .logo {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 2rem;
+    
+  }
+  nav ul li a {
+    font-size: 1.5rem; 
+  }
   
+  h2 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+
+  section > div > img {
+    width: 100%;
+  }
+
+  .absoluto {
+    font-size: 1.7rem;
+  }
+
+  /* Armas */
+  .caja {
+    flex-direction: column; 
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .arma {
+    margin: 20px 0; 
+  }
+
+  .arma > img {
+    width: 35%; 
+  }
+
+  .arma > a {
+    font-size: 1.4rem;
+  }
+
+  /* Footer */
+  #pie {
+    font-size: 1.4rem;
+    margin-bottom: 70px;
+  }
+
+  .cookie-footer {
+    flex-direction: column;
+    padding: 1%;
+    text-align: center;
+  }
+
+  .cookie-footer p {
+    font-size: 1.3rem; 
+    padding: 0;
+  }
+
+  .cookie-footer a {
+    font-size: 1.2rem; 
+    margin-bottom: 5px;
+  }
 }
