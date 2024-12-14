@@ -35,6 +35,7 @@ h1 {
   /*Cinzel Decorative - Almendra SC - Darker Grotesque - Manrope*/
   font-weight: 700;
   font-style: normal;
+  font-size: 5rem;
   color: rgb(255, 255, 255);
   padding: 3%;
   margin: 0;
@@ -76,6 +77,7 @@ nav ul li a {
   color: white;
   font-weight: bolder;
   margin: auto;
+  font-size: 1.6rem;
 }
 /* Pseudoclases */
 /*Hover: para colocar diseño cuando se coloque cursor encima*/
@@ -112,11 +114,11 @@ main {
 }
 p {
   padding: 0.5rem 0;
+  font-size: 1.5rem;
 }
 section > p > span {
   font-weight: bolder;
   font-style: italic;
-  font-size: 18px;
 }
 
 h2 {
@@ -124,7 +126,7 @@ h2 {
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
-  font-size: 3rem;
+  font-size: 4.5rem;
   color: initial;
   margin-top: 1rem;
   color: #749d4f;
@@ -155,6 +157,7 @@ section > div > img {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-size: 4.5rem;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -181,7 +184,7 @@ section > div > img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 15px;
+  margin: 2%;
 }
 
 .arma > img {
@@ -195,6 +198,7 @@ section > div > img {
   color: inherit;
   font-weight: bolder;
   text-align: center;
+  font-size: 2rem;
 }
 
 /* Selector adyacente (hermanos adyacentes) "+" */
@@ -208,6 +212,7 @@ img + a:hover {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-size: 1.5rem;
   bottom: 0;
   right: 0;
   writing-mode: vertical-rl; /* Escribe el texto en vertical desde derecha a izquierda */
@@ -244,8 +249,9 @@ img + a:hover {
   background-color: #ffffff75;
   color: #fff; /* Texto en blanco para buen contraste */
   display: flex; /* Organiza el contenido de manera horizontal */
-  justify-content: space-around; /* Espacia el texto y el botón */
+  justify-content: center; /* Espacia el texto y el botón */
   align-items: center;
+  gap: 5%;
 }
 
 .cookie-footer a {
@@ -254,6 +260,7 @@ img + a:hover {
 
 .cookie-footer p {
   margin: 0;
+  font-size: 1.3rem;
 }
 
 .cookie-footer button {
@@ -266,4 +273,18 @@ img + a:hover {
 
 .cookie-footer button:hover {
   background-color: #45a049; /* Efecto al pasar el ratón sobre el botón */
+}
+
+
+/* Media Queries - Monitores grandes */
+@media screen and (min-width: 1200px) {
+  
+}
+
+/* Media Queries - Tabletas */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+}
+
+/* Media Queries - Télefonos */
+@media screen and (max-width: 767px) {
 }
