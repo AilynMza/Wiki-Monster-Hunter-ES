@@ -36,6 +36,7 @@ h1 {
   /*Cinzel Decorative - Almendra SC - Darker Grotesque - Manrope*/
   font-weight: 700;
   font-style: normal;
+  font-size: 5rem;
   color: rgb(255, 255, 255);
   padding: 3%;
   margin: 0;
@@ -77,6 +78,7 @@ nav ul li a {
   color: white;
   font-weight: bolder;
   margin: auto;
+  font-size: 1.6rem;
 }
 /* Pseudoclases */
 /*Hover: para colocar diseño cuando se coloque cursor encima*/
@@ -116,10 +118,18 @@ h2 {
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
-  font-size: 3rem;
-  color: initial;
-  margin: 20px 0 0 0;
+  font-size: 4.5rem;
+  margin: 50px 0 0 0;
   color: #749d4f;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+p {
+  padding: 0.5rem 0;
+  font-size: 2rem;
 }
 
 .subtitulo-der {
@@ -171,7 +181,6 @@ h2 {
 .card-description p > span {
   font-weight: bolder;
   font-style: italic;
-  font-size: 18px;
 }
 
 /* Diseño adaptable */
@@ -187,7 +196,7 @@ h2 {
     padding: 10px 20px;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 2rem;
     color: white;
     background-color: #749d4f;
     border: none;
@@ -202,6 +211,7 @@ h2 {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-size: 1.5rem;
     bottom: 0;
     right: 0;
     writing-mode: vertical-rl; /* Escribe el texto en vertical desde derecha a izquierda */

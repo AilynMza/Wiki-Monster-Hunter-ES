@@ -112,10 +112,12 @@ nav ul li input {
 main {
   padding:  0 10%;
 }
+
 p {
   padding: 0.5rem 0;
   font-size: 1.5rem;
 }
+
 section > p > span {
   font-weight: bolder;
   font-style: italic;
