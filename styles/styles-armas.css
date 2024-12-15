@@ -11,6 +11,7 @@ html {
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .grid {
@@ -98,10 +99,9 @@ nav ul li {
 }
 
 nav ul li a {
-  /*Para que el hipervinculo no se subraye*/
-  text-decoration: none;
+  text-decoration: none; /*Para que el hipervinculo no se subraye*/
   color: white;
-  font-weight: bolder;
+  font-weight: bold;
   margin: auto;
   font-size: 1.5rem;
 }
@@ -126,7 +126,7 @@ nav ul li:last-child {
 
 nav ul li input {
   width: 100%;
-  border: 2px soild;
+  border: 2px solid;
   border-color: rgb(211, 255, 190);
   border-radius: 5px;
   background-color: rgb(51, 51, 51);
@@ -194,7 +194,7 @@ p {
 }
 
 .card-description p > span {
-  font-weight: bolder;
+  font-weight: bold;
   font-style: italic;
 }
 
