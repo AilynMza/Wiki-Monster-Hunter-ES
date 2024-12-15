@@ -223,6 +223,62 @@ p {
   padding: 3%;
 }
 
+/* Media Queries - Tabletas */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  html {
+    font-size: 14px;
+  }
+
+  .logo {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  nav ul {
+    padding: 2.5rem;
+  }
+
+  nav ul li a {
+    font-size: 1.5rem; 
+  }
+  
+  h2 {
+    font-size: 3.2rem;
+    margin-top: 2rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  .contenedor > img {
+    width: 50%;
+  }
+
+  .botón-build {
+    font-size: 1.5rem;
+    align-self: center;
+  }
+
+  /* Footer */
+  #pie {
+    font-size: 1.4rem;
+    padding: 2rem;
+  }
+
+  #pie > p {
+    padding: 0rem 8rem 0rem 8rem;
+   }
+}
+
+
 /* Media Queries - Télefonos */
 @media screen and (max-width: 767px) {
   html {
@@ -245,8 +301,6 @@ p {
     margin-top: 2rem;
     font-size: 3rem;
   }
-
-  .contenedor
 
   h3 {
     font-size: 1.6rem;
