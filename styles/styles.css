@@ -254,6 +254,7 @@ img + a:hover {
   justify-content: center; /* Espacia el texto y el botón */
   align-items: center;
   gap: 5%;
+  z-index: 1001;
 }
 
 .cookie-footer p {
