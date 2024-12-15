@@ -13,6 +13,34 @@ html {
   padding: 0;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto min-content 1fr auto;
+  height: 100vh; /* Vh es la altura del dispositivo*/
+  grid-template-areas:
+    "header"
+    "navbar"
+    "main"
+    "footer";
+}
+
+.grid-header {
+  grid-area: header;
+}
+
+.grid-navbar {
+  grid-area: navbar;
+}
+
+.grid-main {
+  grid-area: main;
+}
+
+.grid-footer {
+  grid-area: footer;
+}
+
 /* BODY */
 body {
   margin: 0;
@@ -443,32 +471,4 @@ img + a:hover {
     font-size: 1.2rem; 
     margin-bottom: 5px;
   }
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto min-content 1fr auto;
-  height: 100vh; /* Vh es la altura del dispositivo*/
-  grid-template-areas:
-    "header"
-    "navbar"
-    "main"
-    "footer";
-}
-
-.grid-header {
-  grid-area: header;
-}
-
-.grid-navbar {
-  grid-area: navbar;
-}
-
-.grid-main {
-  grid-area: main;
-}
-
-.grid-footer {
-  grid-area: footer;
 }
