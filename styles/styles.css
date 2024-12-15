@@ -107,11 +107,15 @@ nav ul li a {
 }
 /* Pseudoclases */
 /*Hover: para colocar diseño cuando se coloque cursor encima*/
-nav ul li a:hover {
+nav ul li a.lista:hover {
   color: #6acd0c;
   transition: 0.3s; /* Suavizar la transición del hover */
 }
 
+nav ul li a.en-desarrollo:hover {
+  color: #f11202;
+  transition: 0.3s; /* Suavizar la transición del hover */
+}
 
 nav ul li:last-child {
   display: flex;
