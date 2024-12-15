@@ -132,22 +132,6 @@ p {
   font-size: 2rem;
 }
 
-.subtitulo-der {
-  text-align: right;
-}
-
-.subtitulo-centro {
-  text-align: center;
-}
-
-.derecha {
-  right: 0;
-}
-
-.izquierda {
-  left: 0;
-}
-
 .contenedor {
   display: flex;
   align-items: center;
@@ -238,3 +222,4 @@ p {
   text-align: center;
   padding: 3%;
 }
+
