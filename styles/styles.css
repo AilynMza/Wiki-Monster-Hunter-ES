@@ -280,7 +280,85 @@ img + a:hover {
 
 /* Media Queries - Tabletas */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  html {
+    font-size: 14px;
+  }
+  
+  .logo {
+    width: 90%;
+  }
 
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  nav ul {
+    padding: 2.5rem;
+  }
+
+  nav ul li a {
+    font-size: 1.5rem; 
+  }
+
+  h2 {
+    font-size: 3.2rem;
+    margin-top: 2rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+
+  section > div > img {
+    width: 100%;
+  }
+
+  .absoluto {
+    font-size: 2.5rem;
+  }
+
+  /* Armas */
+  .caja {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .arma {
+    margin: 20px 0; 
+  }
+
+  .arma > img {
+    width: 40%; 
+  }
+
+  .arma > a {
+    font-size: 1.4rem;
+  }
+
+  /* Footer */
+  #pie {
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+  }
+
+  #pie > p {
+   padding: 0rem 8rem 1rem 8rem;
+  }
+
+  .cookie-footer {
+    padding: 1%;
+    text-align: center;
+  }
+
+  .cookie-footer p {
+    font-size: 1.3rem; 
+    padding: 0;
+  }
+
+  .cookie-footer a {
+    font-size: 1.2rem; 
+    margin-bottom: 5px;
+  }
 }
 
 /* Media Queries - Télefonos */
