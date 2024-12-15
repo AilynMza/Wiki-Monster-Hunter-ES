@@ -242,6 +242,10 @@ img + a:hover {
   padding: 3%;
 }
 
+#pie > p {
+  margin-bottom: 1rem;
+}
+
 .cookie-footer {
   position: fixed; /* Siempre visible al final de la pantalla */
   bottom: 0; /* Pegado a la parte inferior */
@@ -418,7 +422,10 @@ img + a:hover {
   /* Footer */
   #pie {
     font-size: 1.4rem;
-    margin-bottom: 70px;
+  }
+
+  #pie > p {
+    margin-bottom: 6rem;
   }
 
   .cookie-footer {
