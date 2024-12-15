@@ -16,7 +16,6 @@ html {
 
 /* BODY */
 body {
-  background-color: rgb(88, 88, 88);
   margin: 0;
 }
 
@@ -110,6 +109,7 @@ nav ul li input {
 
 /* MAIN */
 main {
+  background-color: rgb(88, 88, 88);
   padding: 0 10%;
 }
 
@@ -319,4 +319,32 @@ p {
     font-size: 1.4rem;
     padding: 2rem;
   }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto min-content 1fr auto;
+  height: 100vh; /* Vh es la altura del dispositivo*/
+  grid-template-areas:
+    "header"
+    "navbar"
+    "main"
+    "footer";
+}
+
+.grid-header {
+  grid-area: header;
+}
+
+.grid-navbar {
+  grid-area: navbar;
+}
+
+.grid-main {
+  grid-area: main;
+}
+
+.grid-footer {
+  grid-area: footer;
 }
