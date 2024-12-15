@@ -167,14 +167,6 @@ p {
   font-style: italic;
 }
 
-/* Diseño adaptable */
-@media (max-width: 600px) {
-  .contenedor {
-    flex-direction: column; /* Apila la imagen y la descripción en pantallas pequeñas */
-    align-items: flex-start; /* Alinear a la izquierda en modo columna */
-  }
-}
-
 .botón-build {
     align-self: flex-end;
     padding: 10px 20px;
@@ -300,6 +292,10 @@ p {
   h2 {
     margin-top: 2rem;
     font-size: 3rem;
+  }
+
+  .contenedor {
+    flex-direction: column;
   }
 
   h3 {
