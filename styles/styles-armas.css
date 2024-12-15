@@ -223,3 +223,52 @@ p {
   padding: 3%;
 }
 
+/* Media Queries - Télefonos */
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+
+  .logo {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  nav ul li a {
+    font-size: 1.5rem; 
+  }
+  
+  h2 {
+    margin-top: 2rem;
+    font-size: 3rem;
+  }
+
+  .contenedor
+
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  .contenedor > img {
+    width: 100%;
+  }
+
+  .botón-build {
+    font-size: 1.5rem;
+    align-self: center;
+  }
+
+  /* Footer */
+  #pie {
+    font-size: 1.4rem;
+    padding: 2rem;
+  }
+
+}
